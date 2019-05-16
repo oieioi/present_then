@@ -1,0 +1,11 @@
+require: rubocop-performance
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/LineLength:
+  Max: 130
+
+Style/Documentation:
+  Enabled: false

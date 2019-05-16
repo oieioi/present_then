@@ -1,8 +1,6 @@
 # `Object#present_then(&block)`
 
-
 ## Installation
-
 
 ```ruby
 gem 'present_then'
@@ -22,7 +20,7 @@ foo.present_then { |foo| puts "val: #{foo}" }
 ```
 
 ```erb
-<% somemodel.some_slow_getter.present_then do |val| %>
+<% some_object.some_slowly_get_data.present_then do |val| %>
   <div><%= val %></div>
 <% end %>
 ```
